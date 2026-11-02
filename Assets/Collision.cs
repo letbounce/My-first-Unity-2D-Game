@@ -6,4 +6,9 @@ public class Collision : MonoBehaviour
     {
         Debug.Log("Collision detected");
     }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        Debug.Log("Trigger detected");
+    }
 }
